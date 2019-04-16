@@ -1,5 +1,5 @@
 name: inject
-version: 1.0.0-alpha
+version: 1.0.0-alpha1
 description: Compile-time dependency injection for Dart
 authors:
   - Matan Lurey <matanl@google.com>
