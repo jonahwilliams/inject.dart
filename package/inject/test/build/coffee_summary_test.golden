@@ -1,0 +1,31 @@
+{
+  "asset": "asset:third_party.dart.inject.example.coffee/lib/coffee_app.dart",
+  "summary": {
+    "injector": [
+      {
+        "name": "Coffee",
+        "providers": [
+          {
+            "name": "getCoffeeMaker",
+            "injectedType": {
+              "lookupKey": {
+                "root": "asset:third_party.dart.inject.example.coffee/lib/src/coffee_maker.dart#CoffeeMaker",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            "kind": "method",
+            "singleton": false,
+            "asynchronous": false,
+            "dependencies": []
+          }
+        ],
+        "modules": [
+          "asset:third_party.dart.inject.example.coffee/lib/src/drip_coffee_module.dart#DripCoffeeModule"
+        ]
+      }
+    ],
+    "module": [],
+    "injectable": []
+  }
+}
